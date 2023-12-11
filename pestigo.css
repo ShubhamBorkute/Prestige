@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+.container{
+    /* margin: 5px;
+    padding: 6px; */
+}
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(15, 2, 2);
+    align-items: center;
+    height: 80px;
+    /* padding: 0px 80px; */
+}
+nav ul{
+    display: flex;
+    margin: 0 120px;
+    
+}
+nav ul li{
+    list-style: none;
+    
+   margin-right: 20px;
+   padding: 2px;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav h1{
+    margin-left: 37px;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+.container img{
+    width: 100%;
+    /* height: auto; */
+}
+
+.img{
+    
+    width: 100%;
+    height: 105vh;
+    border: 10px solid ;
+    background-repeat: no-repeat;
+    background-image: url("./img/nature1.webp");
+background-size: 100%;
+}
+
+
+
+.content{
+    /* margin-left: 37px; */
+    line-height: 0.7;
+    margin-top: 18px;
+    /* background-color: chartreuse; */
+    width: 100%;
+    height: 105vh;
+    /* border: 10px solid ; */
+    padding: 50px;
+}
+.content span{
+    color: red;
+    font-size:40px ;
+    
+}
+
+.content h1{
+    font-size:65px ;
+    /* padding-top: 15px;
+    padding-bottom: 20px; */
+}
+.content h2{
+    font-size:30px ;
+    padding-top: 15px;
+}
+
+.icons{
+    height: 151px;
+    display:flex;
+    justify-content:space-between;
+    border: 5px solid blue;
+    padding-left: 54px;
+    padding-right: 54px;
+    
+} 
+.icons .horizontal_line{
+    width: 100px;
+    border: 2px solid red;
+    margin: 11px;
+}
+
+.imgpara{
+    display: flex;
+    border: 5px solid green;
+}
+.imgpara img{
+    width:48%;
+    height: auto;
+    
+}
+para{
+    width: 45%;
+}
+
+.para h4{
+    margin-left: 10px;
+}
+.para h6{
+    margin-left: 10px;
+}
+.imgpara button{
+    border: 2px solid black;
+    color: blue;
+    margin-left: 10px;
+}
+.icons .i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Service Section */
+.service{
+    width: 100%;
+    /* margin-left: 37px; */
+    /* line-height: 0.7; */
+    background-color: darkviolet;
+    border: 5px solid green;
+
+}
+
+.service .heading{
+    margin:10px;
+    padding: 10px;
+    display: flex;
+    /* text-align: center; */
+}
+
+.heading h4{
+    margin-left: 10px;
+}
+.boxes .box1{
+    display: flex;
+     justify-content: space-between;
+     margin: 10px;
+    padding: 20px;
+}
+.b1 h2{
+    margin-left: 10px;
+}
+.boxes .box2{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 20px;
+}
+
+.boxes .b1{
+    /* text-align: center; */
+    display: flex;
+    justify-content: space;
+    padding: 10px;
+    
+}
+.fa-regular fa-calendar{
+    size: 10px;
+}
+box-8 p{
+    padding: 50px;
+}
+/* Work Section 
+ .work{
+    margin-left: 37px; 
+    line-height: 0.7;
+    margin-top: 18px;
+    border: 5px solid green;
+    width: auto;
+
+} */
+.team{
+    border: 5px solid green;
+    width: 100%;
+    height: auto;
+}
+.team .teamheading{
+    display: flex;
+    justify-content:left;
+}
+.teamheading p{
+    font-size: 10px;
+}
+.box6 img{
+   margin-left: 20px;
+    width: 265px;
+    border: 2px solid blue; 
+    height: 248px;
+}
